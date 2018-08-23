@@ -54,10 +54,10 @@ public class Triangle extends Shape {
 	@Override
 	public double getArea() {
 		// TODO Auto-generated method stub
-		double HalfPerimetr = this.getPerimetr()/2;
-		return Math.sqrt(HalfPerimetr*(HalfPerimetr-this.getPointA().lengthOfLine(this.getPointB()))*
-				(HalfPerimetr-this.getPointB().lengthOfLine(this.getPointC()))*
-				(HalfPerimetr-this.getPointC().lengthOfLine(this.getPointA())));
+		double halfPerimetr = this.getPerimetr()/2;
+		return Math.sqrt(halfPerimetr*(halfPerimetr-this.getPointA().lengthOfLine(this.getPointB()))*
+				(halfPerimetr-this.getPointB().lengthOfLine(this.getPointC()))*
+				(halfPerimetr-this.getPointC().lengthOfLine(this.getPointA())));
 	}
 
 	@Override

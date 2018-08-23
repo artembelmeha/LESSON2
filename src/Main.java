@@ -21,9 +21,9 @@ public class Main {
 		desk.putShapeOnDesk(tria, 0);
 		desk.putShapeOnDesk(rect, 2);
 		
-		desk.InfoAboutShapeOnTheDesk();
+		desk.infoAboutShapeOnTheDesk();
 		desk.deleteShapeFromDesk(2);
-		desk.InfoAboutShapeOnTheDesk();
+		desk.infoAboutShapeOnTheDesk();
 
 
 	}

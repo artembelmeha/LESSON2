@@ -64,11 +64,11 @@ public class Rectangle extends Shape{
 	@Override
 	public double getArea() {
 		// TODO Auto-generated method stub
-		double HalfPerimetr = this.getPerimetr()/2;
-		return Math.sqrt((HalfPerimetr-this.getPointA().lengthOfLine(this.getPointB()))*
-				(HalfPerimetr-this.getPointB().lengthOfLine(this.getPointC()))*
-				(HalfPerimetr-this.getPointC().lengthOfLine(this.getPointD())))*
-				(HalfPerimetr-this.getPointD().lengthOfLine(this.getPointA()));
+		double halfPerimetr = this.getPerimetr()/2;
+		return Math.sqrt((halfPerimetr-this.getPointA().lengthOfLine(this.getPointB()))*
+				(halfPerimetr-this.getPointB().lengthOfLine(this.getPointC()))*
+				(halfPerimetr-this.getPointC().lengthOfLine(this.getPointD())))*
+				(halfPerimetr-this.getPointD().lengthOfLine(this.getPointA()));
 	}
 
 	@Override
